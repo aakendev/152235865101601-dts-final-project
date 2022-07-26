@@ -13,3 +13,17 @@ Contoh: `1512345678001-dts-final-project`
 ## Branching, commit
 
 Branch dapat sesuai dengan kebutuhan mandiri, namun hasil akhirnya harus di merge ke branch `main`.
+
+============================================================================================================
+
+### Tailwind Components by AAKEN Developer
+
+## Button
+Properties :
+- title = Button Title, example : `My Button`
+- bg = Button Background, example : `bg-color-50 hover:bg-color-100`
+- txt = Button Text Color, example : `text-white`
+- m = Button Margin, example : `m-5`
+- href = Link Forward once Button Clicked, example : `https://www.google.com`
+- sx = Customs Style, example : `{{padding:'2px'}}`
+- click = Button Click Behaviour, example : `{() => console.log('clicked')}`
