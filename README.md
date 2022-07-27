@@ -16,7 +16,7 @@ Branch dapat sesuai dengan kebutuhan mandiri, namun hasil akhirnya harus di merg
 
 ============================================================================================================
 
-### Tailwind Components by AAKEN Developer
+# Tailwind Components by AAKEN Developer
 
 ## Button
 Properties :
