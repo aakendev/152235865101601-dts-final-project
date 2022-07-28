@@ -49,4 +49,4 @@ Properties :
 - iconActive : Iconify Patterns when Item is Hovering
 - iconInactive : Iconify Patterns when Item is Idling
 - Example of Object Data :
-`const dataList = [{title:"Edit",iconActive:"heroicons-solid:pencil,iconInactive:"heroicons-outline:pencil},{title:"Delete",iconActive:"heroicons-solid:trash",iconInactive:"heroicons-outline:trash"}]`
+`const dataList = [{title:"Edit",iconActive:"heroicons-solid:pencil",iconInactive:"heroicons-outline:pencil"},{title:"Delete",iconActive:"heroicons-solid:trash",iconInactive:"heroicons-outline:trash"}];`
