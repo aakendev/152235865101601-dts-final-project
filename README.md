@@ -27,3 +27,9 @@ Properties :
 - href = Link Forward once Button Clicked, example : `https://www.google.com`
 - sx = Customs Style, example : `{{padding:'2px'}}`
 - click = Button Click Behaviour, example : `{() => console.log('clicked')}`
+
+## JumboTitle
+Properties :
+- title = Jumbo Title, example : `My Jumbo Title`
+- txt = Jumbo Title Text Color, example : `text-fire-500`
+- m = Jumbo Title Margin, example : `m-2`
