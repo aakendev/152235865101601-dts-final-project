@@ -33,3 +33,20 @@ Properties :
 - title = Jumbo Title, example : `My Jumbo Title`
 - txt = Jumbo Title Text Color, example : `text-fire-500`
 - m = Jumbo Title Margin, example : `m-2`
+
+## DropdownMenu
+Properties :
+- title = Button Title, example : `My Button Title`
+- btnBg = Button Background, example : `bg-fire-500 hover:bg-fire-600`
+- btnTxt = Button Text, example : `text-white text-md font-medium`
+- menuBg = Item Menu Background, example : `bg-white`
+- menuBgTxt = Each Item Menu Background and Text when Hovering, example : `bg-fire-500 text-white font-medium`
+- menuTxtInactive = Each Item Menu Text Color when Idling, example : `text-gray-900`
+- padding = Button and Menu Padding, example: `px-2 py-2`
+- iconMargin = Icon Item Menu Right Margin, example : `mr-2`
+- menuItem = Data List of Menu Item, use Array data, consist of Object, example : {dataList} ; Object keys must be follow below patterns :
+- title : Item Menu Title
+- iconActive : Iconify Patterns when Item is Hovering
+- iconInactive : Iconify Patterns when Item is Idling
+- Example of Object Data :
+`const dataList = [{title:"Edit",iconActive:"heroicons-solid:pencil,iconInactive:"heroicons-outline:pencil},{title:"Delete",iconActive:"heroicons-solid:trash",iconInactive:"heroicons-outline:trash"}]`
