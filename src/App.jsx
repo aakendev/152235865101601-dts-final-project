@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import kranjanku from './assets/images/kranjanku.png';
-import DropdownMenu from './components/DropdownMenu';
+import ListboxSelect from './components/ListboxSelect';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,17 +20,11 @@ const App = () => {
     }
   }, []);
   
-  const menuItem = [
-    {
-      title: "Delete",
-      iconActive: "heroicons-solid:trash",
-      iconInactive: "heroicons-outline:trash",
-    },
-    {
-      title: "Edit",
-      iconActive: "heroicons-solid:pencil",
-      iconInactive: "heroicons-outline:pencil",
-    },
+  const listBox = [
+    {name: "Artropos Hufflepuff",},
+    {name: "Medusa Slytherin",},
+    {name: "Mirynda Griffindor",},
+    {name: "Alloyner Ravenclaw",},
   ];
   
   return isLoading ?
@@ -39,7 +33,7 @@ const App = () => {
       <img className="w-3/4 animate-pulse" src={kranjanku} alt="Logo KranjanKu" />
     </div> :
     <div>
-      <DropdownMenu title="Menu Dropdown" btnBg="bg-fire-400 hover:bg-fire-500" menuBg="bg-white" menuBgTxt="bg-fire-500 text-white font-medium" menuTxtInactive="text-fire-900" btnTxt="text-md font-medium text-white" padding="px-3 py-3" iconMargin="mr-2" menuItem={menuItem} />
+      <ListboxSelect bgBtn="bg-fire-500" txtBtn="text-white sm:text-md" bgList="bg-white" bgTxtItem="bg-fire-500 text-white" txtItem="text-gray-900" listBox={listBox} />
     </div>
 }
 
